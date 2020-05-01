@@ -1,0 +1,19 @@
+{
+  "name": "bot-express-ts",
+  "version": "1.0.0",
+  "description": "Library that makes development of discord bots easyer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordofdestiny/bot-express-ts.git"
+  },
+  "author": "Lord of Destiny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lordofdestiny/bot-express-ts/issues"
+  },
+  "homepage": "https://github.com/lordofdestiny/bot-express-ts#readme"
+}
