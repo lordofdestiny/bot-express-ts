@@ -4,16 +4,32 @@
   "description": "Library that makes development of discord bots easyer",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "test": "jest",
+    "test:watch": "jest -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lordofdestiny/bot-express-ts.git"
   },
+  "types": "./dist/index.d.ts",
   "author": "Lord of Destiny",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lordofdestiny/bot-express-ts/issues"
   },
-  "homepage": "https://github.com/lordofdestiny/bot-express-ts#readme"
+  "homepage": "https://github.com/lordofdestiny/bot-express-ts#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "source-map-support": "^0.5.19"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "@types/source-map-support": "^0.5.1",
+    "jest": "^25.5.3",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  }
 }
